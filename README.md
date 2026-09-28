@@ -17,18 +17,20 @@
 - 🔎 Security engineer with hands-on SOC experience: SIEM monitoring, detection engineering and incident response
 - 🧱 Operate and harden perimeter &amp; endpoint security (FortiGate, F5, Sangfor, Kaspersky) and PAM (Kron)
 - 🛠️ I build open-source tools that automate the repetitive parts of SOC and recon work
+- 🧪 I write detections as code: Sigma rules with tests, mapped to MITRE ATT&amp;CK
 - 🐛 Practice coordinated vulnerability disclosure through official VDP / bug bounty programs
 
 ### 🧰 Security tools I built
 
 | Project | What it does | Focus |
 |---|---|---|
+| 🧪 **[detection-engineering](https://github.com/defamp/detection-engineering)** | Sigma detection rules for Linux and web attacks, mapped to MITRE ATT&amp;CK, each tested in CI against attack and benign log samples | Detection engineering · SIEM |
 | 🐛 **[ioc-hunter](https://github.com/defamp/ioc-hunter)** | Enriches IPs, domains, URLs and hashes via VirusTotal, AbuseIPDB &amp; OTX into one verdict | Threat intel · SOC automation |
 | 🔍 **[logsleuth](https://github.com/defamp/logsleuth)** | Detects brute-force, password spraying, breaches and web attacks in auth/access logs, mapped to MITRE ATT&amp;CK | Blue team · Detection |
 | 🎣 **[phishtriage](https://github.com/defamp/phishtriage)** | Scores `.eml` files on spoofing, SPF/DKIM/DMARC, URLs, attachments and social engineering | Email security · Triage |
 | 🛰️ **[cyber-recon](https://github.com/defamp/cyber-recon)** | Passive-first async recon orchestrator for VDP / bug bounty scopes, with Nuclei and CVE enrichment | Recon · Attack surface |
 
-All tools are Python CLIs with console, JSON and HTML output, pytest suites and automation-friendly exit codes.
+Everything is tested in CI: the tools are Python CLIs with pytest suites and automation-friendly exit codes; the detection rules are checked against attack and benign samples.
 
 ### ⚙️ Tech &amp; tools
 
