@@ -29,6 +29,7 @@
 | 🔍 **[logsleuth](https://github.com/defamp/logsleuth)** | Detects brute-force, password spraying, breaches and web attacks in auth/access logs, mapped to MITRE ATT&amp;CK | Blue team · Detection |
 | 🎣 **[phishtriage](https://github.com/defamp/phishtriage)** | Scores `.eml` files on spoofing, SPF/DKIM/DMARC, URLs, attachments and social engineering | Email security · Triage |
 | 🧬 **[maltriage](https://github.com/defamp/maltriage)** | Triages CAPE/Cuckoo sandbox reports into a verdict, MITRE ATT&amp;CK mapping and extracted IOCs | Malware analysis · DFIR |
+| 🔑 **[tokenpeek](https://github.com/defamp/tokenpeek)** ([live](https://defamp.github.io/tokenpeek/)) | Client-side JWT & token security analyzer: decode + flag `alg=none`, weak HMAC secrets, key injection and sensitive payload data, all in-browser | Web · AppSec |
 | 🛰️ **[cyber-recon](https://github.com/defamp/cyber-recon)** | Passive-first async recon orchestrator for VDP / bug bounty scopes, with Nuclei and CVE enrichment | Recon · Attack surface |
 
 Everything is tested in CI: the tools are Python CLIs with pytest suites and automation-friendly exit codes; the detection rules are checked against attack and benign samples.
