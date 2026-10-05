@@ -7,7 +7,6 @@
 <p align="center">
   <a href="https://defamp.github.io"><img src="https://img.shields.io/badge/Portfolio-defamp.github.io-22d3ee?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"></a>
   <a href="https://www.linkedin.com/in/defa-mulya-pratama-4316b720a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://defamp.github.io/CV_Defa_Mulya_Pratama.pdf"><img src="https://img.shields.io/badge/CV-Download-34d399?style=for-the-badge&logo=readdotcv&logoColor=white" alt="CV"></a>
 </p>
 
 ---
