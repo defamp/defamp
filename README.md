@@ -28,6 +28,7 @@
 | 🐛 **[ioc-hunter](https://github.com/defamp/ioc-hunter)** | Enriches IPs, domains, URLs and hashes via VirusTotal, AbuseIPDB &amp; OTX into one verdict | Threat intel · SOC automation |
 | 🔍 **[logsleuth](https://github.com/defamp/logsleuth)** | Detects brute-force, password spraying, breaches and web attacks in auth/access logs, mapped to MITRE ATT&amp;CK | Blue team · Detection |
 | 🎣 **[phishtriage](https://github.com/defamp/phishtriage)** | Scores `.eml` files on spoofing, SPF/DKIM/DMARC, URLs, attachments and social engineering | Email security · Triage |
+| 🧬 **[maltriage](https://github.com/defamp/maltriage)** | Triages CAPE/Cuckoo sandbox reports into a verdict, MITRE ATT&amp;CK mapping and extracted IOCs | Malware analysis · DFIR |
 | 🛰️ **[cyber-recon](https://github.com/defamp/cyber-recon)** | Passive-first async recon orchestrator for VDP / bug bounty scopes, with Nuclei and CVE enrichment | Recon · Attack surface |
 
 Everything is tested in CI: the tools are Python CLIs with pytest suites and automation-friendly exit codes; the detection rules are checked against attack and benign samples.
